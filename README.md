@@ -8,6 +8,7 @@ An interactive **Commodity Price Index Dashboard** built with **Next.js 14**, fe
 
 ## 📋 Table of Contents
 
+- [Screenshots](#-screenshots)
 - [Tech Stack](#-tech-stack)
 - [Features](#-features)
 - [Project Structure](#-project-structure)
@@ -15,6 +16,34 @@ An interactive **Commodity Price Index Dashboard** built with **Next.js 14**, fe
 - [Environment Variables](#-environment-variables)
 - [Running the App](#-running-the-app)
 - [Pages](#-pages)
+
+---
+
+## 📸 Screenshots
+
+### 📈 Dashboard Views
+
+#### Monthly View (Full History)
+![Monthly Dashboard](./SC/dashboard.png)
+
+#### Daily View (Last 30 Readings)
+![Daily Dashboard](./SC/dashboardaily.png)
+
+#### Yearly View (Annual Averages)
+![Yearly Dashboard](./SC/dashboardyearly.png)
+
+#### Dashboard Overview
+![Dashboard Overview](./SC/dashboard2.png)
+
+### 📄 Navigation Pages
+
+| Products Page | Services Page |
+|:---:|:---:|
+| ![Products Page](./SC/products.png) | ![Services Page](./SC/services.png) |
+
+| Contact Page |
+|:---:|
+| ![Contact Page](./SC/contact.png) |
 
 ---
 
@@ -179,4 +208,4 @@ ApexCharts Area Chart (Daily / Monthly / Yearly)
 
 ---
 
-*Algo Architech | Internship Selection Task 2024*
+*Algo Architech | Internship Selection Task 2026*

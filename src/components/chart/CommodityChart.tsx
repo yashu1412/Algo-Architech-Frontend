@@ -110,12 +110,15 @@ export default function CommodityChart() {
     xaxis: {
       type: "datetime",
       axisBorder: { show: false },
-      axisTicks: { show: false },
+      axisTicks: { show: true, color: "rgba(0,0,0,0.1)" },
+      tickAmount: interval === "daily" ? 30 : interval === "yearly" ? 30 : 20,
       labels: {
-        style: { colors: "#9E9E9E", fontSize: "11px", fontWeight: "400" },
+        style: { colors: "#9E9E9E", fontSize: "10px", fontWeight: "400" },
         format: xLabelFormat(interval),
-        // for yearly view show fewer ticks to avoid crowding
-        ...(interval === "yearly" ? { rotate: 0, hideOverlappingLabels: true } : {}),
+        rotate: -30,
+        rotateAlways: false,
+        hideOverlappingLabels: true,
+        datetimeUTC: false,
       },
     },
     yaxis: {
